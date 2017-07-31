@@ -1,0 +1,31 @@
+# Robot in Elevator Algorithm
+
+- Move forward until you are inside the elevator.
+- Turn until you are facing the button panel.
+- Start at the "numbered button" for the highest floor the elevator can reach.
+- For every numbered button, until the target button is found:
+	- Subtract 1 from the "numbered button" count.
+- If you reach the target numbered button:
+	- Press the button.
+	- Standby until elevator reopens the doors.
+	- Exit the elevator when the target destination is reached.
+- Otherwise:
+	- If the doors open to a floor that is not the target destination:
+		- Continue to standby until the target destination is reached.
+
+
+# Real-Life Algorithm: Taking Out the Recycling Bins
+
+- Wait until it is the evening before garbage day.
+- Start the "recycling bins with content" counter at 3.
+- Move to designated area in the garage where the recycling bins are located.
+- For each recycling bin with content inside it:
+	- Pick up the bin.
+	- Turn right towards the main entryway to the driveway and move forward.
+	- When outside the garage, turn right until the direction is facing the street exit of the driveway.
+	- When 3 feet away from the street, advance 3 feet to the right perpendicular to the driveway and place bin down.
+	- Subtract 1 from the "recycling bins with content" counter.
+- Until there are no more recycling bins in the garage with content inside:
+	- Return the designated area in the garage where the recycling bins are located and repeat the process.
+- If the "recycling bins with content" counter is equal to 0:
+	- Go back inside house.
