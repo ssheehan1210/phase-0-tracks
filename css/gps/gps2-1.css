@@ -1,0 +1,56 @@
+body {
+  max-width: 100%;
+  background-image: url("http://brctecidos.com.br/wp-content/uploads/2014/08/Microfibra-Adina-415-Azul-Cobalto.jpg");
+  color: white;
+}
+
+header {
+  border: 3px solid black;
+  background-color: grey;
+  position: fixed;
+  top: 0;
+  height: 10vh;
+  min-height: 10em;
+  text-align: center;
+  color: black;
+}
+
+h2 {
+  color: orange;
+}
+
+a:link {
+	color: red;
+}
+
+a:visited {
+	color: green;
+}
+
+a:hover {
+	color: coral;
+}
+
+a:active {
+	color: yellow;
+}
+
+.column-1, .column-2 {
+  float: left;
+  vertical-align: top;
+  width: 50%;
+  padding-top: 10em;
+  padding-bottom: 2em;
+  font-family: sans-serif;
+}
+
+footer {
+  border: 3px solid black;
+  /* float: bottom; */
+  vertical-align: bottom;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  background-color: white;
+  color: black;
+}
