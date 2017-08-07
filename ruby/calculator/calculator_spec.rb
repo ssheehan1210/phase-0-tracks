@@ -8,6 +8,9 @@
   # 'it' block for each individual test
     # expect(<YOUR CODE>).to eq <RESULT>
 
+# And remember, to run the test in the terminal,
+# you need to run 'rspec -fd calculator_spec.rb'
+
 require_relative 'calculator'
 
 describe Calculator do
@@ -23,5 +26,9 @@ describe Calculator do
 
   it "multiplies two integers" do
     expect(calculator.multiply(2,3)).to eq 6
+  end
+
+  it "divides two integers" do
+    expect(calculator.divide(6,3)).to eq 2
   end
 end
